@@ -1,0 +1,4 @@
+<launch>
+    <node name="pcl_pub_node" exec="pcl_pub_node" pkg="dense_pointcloud_demo"/>
+    <node name="pcl_sub_node" exec="pcl_sub_node" pkg="dense_pointcloud_demo" output="screen"/>
+</launch>
